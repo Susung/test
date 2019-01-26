@@ -7,18 +7,17 @@ import Home from './Components/Home';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <header className="App-header">
-            <Navbar />  
-          </header>            
-            <Route exact path="/" component={Home} />
-            {/* <Route exact path="/about" component={About} />
-            <Route exact path="/services" component={Code} />
-            <Route exact path="/team" component={Contact} />
-            <Route exact path="/contact" component={info} /> */}
-        </div>
-      </Router>
+      <div className="App">
+        <header className="App-header">
+          <Navbar />  
+        </header>            
+        <Home />
+          
+          {/* <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={Code} />
+          <Route exact path="/team" component={Contact} />
+          <Route exact path="/contact" component={info} /> */}
+      </div>
     );
   }
 }

@@ -2,7 +2,6 @@
   "name": "susung",
   "version": "0.1.0",
   "homepage": "http://susung.github.io/test",
-  "private": true,
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -15,7 +14,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "HOST=0.0.0.0 PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
