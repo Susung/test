@@ -1,48 +1,37 @@
 import React, { Component } from "react";
-import { Container, Header, Divider, Grid, List, Segment } from "semantic-ui-react";
+import { Container, Divider, Grid, List, Segment, Form, Header, Icon } from "semantic-ui-react";
 
 class Footer extends Component {
   render() {
     return (
-    <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
-        <Container textAlign='center'>
-          <Grid divided inverted stackable>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 1' />
-              <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 2' />
-              <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 3' />
-              <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={7}>
-              <Header inverted as='h4' content='Footer Header' />
-              <p>
-                Extra space for a call to action inside the footer that could help re-engage users.
-              </p>
-            </Grid.Column>
+      <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '2em 0em' }}>
+        <Container>
+          <Grid divided inverted stackable columns='equal'>
+            <Grid.Row>
+              <Grid.Column>
+                <Header inverted as='h3'>[LOGO]</Header>
+                <Header inverted as='h6'>Follow us on :</Header>
+                <Icon size='big' name='facebook' />
+                <Icon size='big' name='linkedin' />
+                <Icon size='big' name='twitter square' />
+              </Grid.Column>
+              <Grid.Column>
+                <Header textAlign='center' inverted as='h3'>Join our mailing list</Header>
+                <Form inverted>
+                  <Form.Input placeholder='Email Address' label='Email' />
+                  <Form.Input placeholder='Full Name' label='Name' />
+                </Form>
+              </Grid.Column>
+              <Grid.Column textAlign='center'>
+                <Header inverted as='h3'>Testimonials</Header>
+                <br />
+                "Wow this is great"
+              </Grid.Column>
+            </Grid.Row>
           </Grid>
-  
-          <Divider inverted section />
+        </Container>
+        <Container textAlign='center'>
+          <Divider section />
           <List horizontal inverted divided link size='small'>
             <List.Item as='a' href='#'>
               Site Map

@@ -9,33 +9,51 @@ class Team extends Component {
   render() {
     const items = [
       {
-        header: 'Leader',
+        header: 'JaeMoo Lee',
         image: avatar,
         description: 'CAPTION',
-        meta: 'Important person',
+        meta: 'Ok person',
       },
       {
-        header: 'Slave',
+        header: 'Susung Choi',
         image: avatar,
         description: 'CAPTION',
-        meta: 'Does slave work',
+        meta: 'VVIP',
+      }
+    ]
+
+    const board = [
+      {
+        header: 'Bill Gates',
+        image: avatar,
+        description: 'CAPTION',
+        meta: '',
       },
       {
-        header: 'Member',
+        header: 'Tim Cook',
         image: avatar,
         description: 'CAPTION',
-        meta: 'Just a member',
-      },
+        meta: '',
+      }
     ]
     
     const CardExampleGroupProps = () => <Card.Group centered items={items} />
+    const BoardProps = () => <Card.Group centered items={board} />
+
 
     return (
-      <Container style={{ marginTop: '2em' }}>
-        <Header as='h1'>Team</Header>
-        <Divider />
-        <CardExampleGroupProps />
-      </Container>
+      <div>
+        <Container style={{ marginTop: '2em' }}>
+          <Header as='h1'>Your Advocates</Header>
+          <Divider />
+          <CardExampleGroupProps />
+        </Container>
+        <Container style={{ marginTop: '4em' }}>
+          <Header as='h1'>Board Members</Header>
+          <Divider />
+          <BoardProps />    
+        </Container>
+      </div>
     );
   }
 }

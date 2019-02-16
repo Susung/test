@@ -1,15 +1,18 @@
 import React, { Component } from "react";
-import { Segment, Container, Image } from "semantic-ui-react";
+import { Segment, Button, Header } from "semantic-ui-react";
 
-import mainLogo from'../../Images/hero.jpg';
+import './index.css';
 
 class Hero extends Component {
   render() {
     return (
       <Segment style={{ padding: '0'}} vertical>
-        <Container>
-          <Image src={mainLogo} fluid />
-        </Container>
+        <div class="hero-image">
+          <div class="hero-text">
+            <Header style={{ fontSize: '4em'}} inverted color='white'>Cassiopeia Health</Header>
+            <Button href="#about">Learn more</Button>
+          </div>
+        </div>
       </Segment>
     );
   }

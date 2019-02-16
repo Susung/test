@@ -8,15 +8,12 @@ import Team from './team.js';
 import Contact from './contact.js';
 import Footer from './footer.js';
 
-import './index.css';
-
 class Home extends Component {
   render() {
     return (
-      
       <div>
         <Hero />
-        <div style={{ marginTop: '5em' }}></div>
+        <div style={{ marginTop: '3em' }}></div>
         <ScrollableAnchor id={'about'}>
             <About />
         </ScrollableAnchor>
