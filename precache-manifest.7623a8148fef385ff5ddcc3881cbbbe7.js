@@ -24,24 +24,24 @@ self.__precacheManifest = [
     "url": "/test/static/media/hero.4a17ba9f.jpg"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/test/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/test/static/media/flags.9c74e172.png"
   },
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/test/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/test/static/media/outline-icons.ad97afd3.ttf"
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/test/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/test/static/media/outline-icons.701ae6ab.eot"
   },
   {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/test/static/media/flags.9c74e172.png"
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/test/static/media/outline-icons.ad97afd3.ttf"
   },
   {
     "revision": "5d4af4865c685c54aebd",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/test/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/test/static/media/icons.8e3c7f55.eot"
-  },
-  {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/test/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/test/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
